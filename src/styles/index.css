@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .body-red {
+    @apply bg-[#BA4949];
+  }
+  .btn-red {
+    @apply text-[#BA4949];
+  }
+  .body-blue {
+    @apply bg-[#38858A];
+  }
+  .btn-blue {
+    @apply text-[#38858A];
+  }
+  .body-green {
+    @apply bg-[#397097];
+  }
+  .btn-green {
+    @apply text-[#397097];
+  }
+  .bg-active {
+    @apply flex w-max items-center justify-center rounded-[6px] bg-black/20;
+  }
+}
